@@ -1,12 +1,10 @@
-// pages/tree.js
-
-import TreeComponent from "./TreeComponent";
+import MenuTree from "../../components/MenuTree";
 
 function TreePage() {
   return (
     <div>
       <h1>Sortable Tree Directory</h1>
-      <TreeComponent />
+        <MenuTree />
     </div>
   );
 }
