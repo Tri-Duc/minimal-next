@@ -32,7 +32,7 @@ const seed = [
       }
     ]
   }
-];
+]; 
 
 function Tree() {
   const [searchString, setSearchString] = useState("");
