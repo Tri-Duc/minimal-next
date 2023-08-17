@@ -10,12 +10,16 @@ import "react-sortable-tree/style.css";
 const seed = [
   {
     id: "123",
-    title: "Company",
+    title: "Bài 1: thì hiện tại Đơn",
     subtitle: "zzz",
     isDirectory: true,
     expanded: true,
     children: [
-      { id: "456", title: "Human Resource", subtitle: "zzz" },
+      { 
+        id: "456", 
+        title: "Human Resource", 
+        subtitle: "zzz" 
+      },
       {
         id: "789",
         title: "Bussiness",
@@ -32,7 +36,7 @@ const seed = [
       }
     ]
   }
-]; 
+];
 
 function Tree() {
   const [searchString, setSearchString] = useState("");
@@ -312,7 +316,7 @@ function Tree() {
             }
           })}
         />
-        {console.log(treeData)}
+        {/* {console.log(treeData)} */}
       </div>
     </div>
   );
